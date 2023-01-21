@@ -1,0 +1,64 @@
+body {
+    background-color: #121c21;
+    color: white;
+    font-family: sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+img {
+    margin-bottom: 80px;
+}
+
+.escondido {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+    background-color: #121c21;
+    color: white;
+    text-align: left;
+
+    padding: 20px 18px;
+
+    border: 4px dashed;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+    cursor:pointer;
+}
+
+button:hover {
+    background: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+}
+
+p {
+    font-size: 24px;
+}

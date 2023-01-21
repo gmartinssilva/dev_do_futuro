@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz do Futuro</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <img
+      src="./Assets/logo-quiz-do-futuro.png"
+      alt="Logo do site em amarelo claro, escrito Dev do Futuro"
+    />
+    <div class="question-1" onclick="checkAnswer(event)">
+        <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO: 1</h1>
+        <button>Ser uma pessoa boa em matemática</button>
+        <button>Ter usado computadores desde criança e jogado video games</button>
+        <button class="opcao-correta">Gostar de resolver problemas e trabalhar em equipe</button>
+    </div>
+    <div class="question-2 escondido" onclick="checkAnswer(event)">
+        <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO: 2</h1>
+        <button>Ser uma pessoa boa em matemática</button>
+        <button>Ter usado computadores desde criança e jogado video games</button>
+        <button class="opcao-correta">Gostar de resolver problemas e trabalhar em equipe</button>
+    </div>
+    <div class="question-3 escondido" onclick="checkAnswer(event)">
+        <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO: 3</h1>
+        <button>Ser uma pessoa boa em matemática</button>
+        <button>Ter usado computadores desde criança e jogado video games</button>
+        <button class="opcao-correta">Gostar de resolver problemas e trabalhar em equipe</button>
+    </div>
+    <div class="question-4 escondido" onclick="checkAnswer(event)">
+        <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO: 4 </h1>
+        <button>Ser uma pessoa boa em matemática</button>
+        <button>Ter usado computadores desde criança e jogado video games</button>
+        <button class="opcao-correta">Gostar de resolver problemas e trabalhar em equipe</button>
+    </div>
+    <div class="question-5 escondido" onclick="checkAnswer(event)">
+        <h1>PARA TRABALHAR COM PROGRAMAÇÃO EU PRECISO: 5</h1>
+        <button>Ser uma pessoa boa em matemática</button>
+        <button>Ter usado computadores desde criança e jogado video games</button>
+        <button class="opcao-correta">Gostar de resolver problemas e trabalhar em equipe</button>
+    </div>
+    <div class="resultado escondido">
+      <h1>PARABÉNS !</h1>
+      <h1>VOCÊ ACERTOU <span class="corrects-answers"></span> DE 5 PERGUNTAS</h1>
+      <button class="opcao-correta" onclick="voltarParaOFuturo()">Voltar para o início</button>
+    </div>
+    <p class="questions-answered"><strong><span class="current-question">1</span>/5</strong></p>
+
+  </body>
+</html>
