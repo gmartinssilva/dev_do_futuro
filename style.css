@@ -59,6 +59,23 @@ button:hover {
     );
 }
 
+button.home {
+    text-align: center;
+
+    background: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+}
+
+button.home:hover {
+    border: 4px solid #F7DC11;
+}
+
 p {
     font-size: 24px;
 }
