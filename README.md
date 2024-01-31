@@ -1,15 +1,21 @@
 # Quiz do Futuro
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/gmartinssilva/Dev_do_Futuro/blob/main/license)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 # Sobre o projeto
 
-Link: Em breve
+Link para utilizar o projeto: [Github Page](https://gmartinssilva.github.io/dev_do_futuro/)
 
-Quiz do Futuro foi um projeto desenvolvido em uma live de 90 minutos, em um evento chamadado Dev do Futuro, juntamente com a empresa [®Driven](https://www.driven.com.br/).
+Quiz do Futuro foi um projeto desenvolvido em uma live de 90 minutos, em um evento chamado Dev do Futuro, juntamente com a empresa [®Driven](https://www.driven.com.br/).
+
 O objetivo do evento era demonstrar de maneira clara e didática, principalmente para as pessoas iniciantes e em transição de carreira, uma aplicação simples, somente
 envolvendo os conceitos inicias de programação Web, utilizando HTML, CSS e Javascript, além do editor de códigos online [Code Sandbox](https://codesandbox.io/).
 
-Consiste basicamente em um jogo de perguntas e respostas, onde ao final, o jogador poderá visualizar a quantidade de perguntas acertadas. Para utilizar o projeto
+Consiste basicamente em um jogo de perguntas e respostas, onde ao final, o jogador poderá visualizar a quantidade de perguntas acertadas. 
+
+Para utilizar o projeto
 não é necessário realizar a instalação de nenhuma biblioteca adicional, basta um navegador.
 
 ## Layout mobile
@@ -53,3 +59,7 @@ git clone https://github.com/gmartinssilva/Dev_do_Futuro.git
 Gabriel Martins Silva
 
 https://www.linkedin.com/in/gabrielmartinssilva/
+
+# Referências
+
+[Badges](https://github.com/Ileriayo/markdown-badges)
